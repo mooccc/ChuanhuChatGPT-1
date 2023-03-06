@@ -266,5 +266,6 @@ with gr.Blocks() as demo:
 print("川虎的温馨提示：访问 http://localhost:7860 查看界面")
 # 默认开启本地服务器，默认可以直接从IP访问，默认不创建公开分享链接
 demo.title = "川虎ChatGPT 🚀"
-demo.queue().launch(server_name = "0.0.0.0", share=True) # 改为 share=True 可以创建公开分享链接
+demo.queue().launch(server_name = "ai-chatgpt-liart-nine.vercel.app
+", share=True) # 改为 share=True 可以创建公开分享链接
 # demo.queue().launch(server_name="0.0.0.0", server_port=7860, share=False) # 可自定义端口
