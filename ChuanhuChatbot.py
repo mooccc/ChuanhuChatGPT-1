@@ -7,7 +7,7 @@ import traceback
 import requests
 # import markdown
 
-my_api_key = ""    # 在这里输入你的 API 密钥
+my_api_key = "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"    # 在这里输入你的 API 密钥
 initial_prompt = "You are a helpful assistant."
 
 API_URL = "https://api.openai.com/v1/chat/completions"
